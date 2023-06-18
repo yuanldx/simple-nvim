@@ -21,7 +21,7 @@ return{
     window = {
     },
     mapping = cmp.mapping.preset.insert({
-      ['<S-T>'] = cmp.mapping.select_prev_item(),
+      ['<S-t>'] = cmp.mapping.select_prev_item(),
       ['<tab>'] = cmp.mapping.select_next_item(),
       ['<C-b>'] = cmp.mapping.scroll_docs(-4),
       ['<C-f>'] = cmp.mapping.scroll_docs(4),
@@ -31,7 +31,7 @@ return{
     }),
     sources = cmp.config.sources({
       { name = 'nvim_lsp' },
-      { name = 'vsnip' },
+     { name = 'vsnip' },
     }, {
       { name = 'buffer' },
     })

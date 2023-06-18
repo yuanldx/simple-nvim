@@ -8,7 +8,7 @@ map("i","jk","<esc>",opt)
 map("n","<leader>lz","<cmd>Lazy<Cr>",opt)
 
 --适合退出快捷键
-map("n","<leader>qq","<cmd>w<Cr><cmd>source<Cr><cmd>q!<Cr>",opt)
+map("n","<leader>qq","<cmd>w<Cr><cmd>source<Cr><cmd>q<Cr>",opt)
 --窗口分割和
 map("n","<leader>|",":vsp<Cr>",opt)
 map("n","<leader>-",":sp<Cr>",opt)
